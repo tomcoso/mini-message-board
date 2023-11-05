@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <form method="POST" action="/new">
+      <h1>New Message!</h1>
+      <p style="display: flex; flex-direction: column">
+        <label for="text">Message</label
+        ><textarea id="text" name="msgText"></textarea>
+      </p>
+      <p style="display: flex; flex-direction: column">
+        <label for="user">Name</label
+        ><input id="user" name="msgUser" type="text" />
+      </p>
+      <button type="submit">Send!</button>
+    </form>
+  </body>
+</html>
